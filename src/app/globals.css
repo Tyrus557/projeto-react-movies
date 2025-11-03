@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme{
+
+    --color-brand-dark : #00030A;
+    --color-brand : #000E2A;
+    --color-brand-light : #00B1E9;
+    --color-brand-accent : #FAFF00;
+
+    --background-image-filmes : url(/img/bg-filmes.webp);
+    --background-image-series : url(/img/bg-series.webp);
+    --background-image-loading : url(/img/loading.gif);
+
+    --spacing-container-list : 1140px;
+}
+
+body{
+    @apply bg-brand;    
+}
