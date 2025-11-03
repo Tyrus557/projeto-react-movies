@@ -1,36 +1,23 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+React Movies é um projeto de estudo em React + Next.js que integra a API do The Movie Database (TMDB) utilizando Axios para requisições HTTP e TailwindCSS para o design. O app entrega catálogo de filmes e séries, com listagens por categoria, paginação e página de detalhes (ano, nota e sinopse).
 
-## Getting Started
+✨ Principais recursos
 
-First, run the development server:
+Home com hero destacando filmes e séries.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Listagens por categoria (ex.: populares) com paginação.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Detalhes: poster/backdrop, ano de lançamento, avaliação e sinopse.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Navegação (Início, Filmes, Séries) e layout responsivo com Tailwind.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Tratamento de carregamento/erro nas chamadas Axios.
 
-## Learn More
+🧩 Stack e conceitos praticados
 
-To learn more about Next.js, take a look at the following resources:
+Next.js (roteamento e SSR/CSR conforme a página).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+React (componentização e estado).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Axios para consumo da TMDB API.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+TailwindCSS para estilização rápida e consistente (grid, tipografia, espaçamentos, responsividade).
